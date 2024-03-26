@@ -9,5 +9,5 @@ Home
     - Cool Website 1
     - Cool Database
     - Cool API Server
-- Contact
+- Contact Me
 - Skills/Experience/etc
