@@ -10,4 +10,57 @@
     --champagne-pink: #ffe5d9ff;
     --apricot: #ffd7baff;
     --peach: #fec89aff;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--seashell);
+}
+
+header {
+    background-color: var(--melon);
+    height: 10dvh;
+    /* can use either % or dvw, does the same thing in this case */
+    width: 100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+footer {
+    background-color: var(--melon);
+    height: 5dvh;
+    width: 100dvw;
+    text-align: center;
+}
+
+main {
+    height: 85dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > * {
+    margin: 1em;
+}
+
+main > img {
+    height: 40dvh;
+    width: auto;
+    background-color: var(--peach);
 }
