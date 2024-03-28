@@ -1,15 +1,10 @@
 /* CSS HEX */
 :root {
-    --melon: #fec5bbff;
-    --pale-dogwood: #fcd5ceff;
-    --misty-rose: #fae1ddff;
-    --seashell: #f8edebff;
-    --platinum: #e8e8e4ff;
-    --platinum-2: #d8e2dcff;
-    --linen: #ece4dbff;
-    --champagne-pink: #ffe5d9ff;
-    --apricot: #ffd7baff;
-    --peach: #fec89aff;
+    --paynes-gray: #666a86ff;
+    --slate-gray: #788aa3ff;
+    --cambridge-blue: #92b6b1ff;
+    --celadon: #b2c9abff;
+    --dutch-white: #e8ddb5ff;
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,11 +18,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--seashell);
+    background-color: var(--celadon);
 }
 
 header {
-    background-color: var(--melon);
+    background-color: var(--slate-gray);
     height: 10dvh;
     /* can use either % or dvw, does the same thing in this case */
     width: 100%;
@@ -40,7 +35,7 @@ header {
 }
 
 footer {
-    background-color: var(--melon);
+    background-color: var(--slate-gray);
     height: 5dvh;
     width: 100dvw;
     text-align: center;
@@ -61,6 +56,25 @@ main > * {
 
 main > img {
     height: 40dvh;
-    width: auto;
-    background-color: var(--peach);
+    /* if adding a specific width, can use object-fit so image is not skewed depending on screen size */
+    width: 80dvw;
+    background-color: #a1c0bc;
+    object-fit: contain;
+}
+
+#home-button {
+    background-color: var(--dutch-white);
+    border: 3px solid wheat;
+    padding: 0.5dvh;
+    font-size:medium;
+}
+
+#home-button:hover {
+    transition: 2s;
+    animation: rubberBand 2s;
+}
+
+#home-contactlink {
+    color: black;
+    text-decoration: none;
 }
