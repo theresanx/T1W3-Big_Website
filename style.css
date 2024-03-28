@@ -25,7 +25,6 @@ body {
 header {
     background-color: var(--slate-gray);
     height: 12dvh;
-    /* can use either % or dvw, does the same thing in this case */
     width: 100%;
     text-align: center;
     padding-top: 0.5em;
@@ -63,7 +62,7 @@ nav > a:hover {
 footer {
     background-color: var(--slate-gray);
     height: 4dvh;
-    width: 100dvw;
+    width: 100%;
     text-align: center;
 
     display: flex;

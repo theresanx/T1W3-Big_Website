@@ -15,7 +15,7 @@
     background-color: var(--cambridge-blue);
     /* similar styling can be box-shadow */
     filter: drop-shadow(0.5em 0.5em 5px #5b8881);
-    width: 80dvw;
+    max-width: 90dvw;
 }
 
 .projectpreview > a {
@@ -47,4 +47,32 @@
     font-size: medium;
     text-decoration: none;
     color: black;
+}
+
+.contentrow {
+    display: flex;
+    flex-direction: column;
+  }  
+
+/* desktop view */
+@media screen and (min-width: 800px) and (min-device-width: 800px) {
+  .contentrow {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .pplist {
+    width: 20dvw;
+    height: 50dvh;
+    margin: 1em;
+    padding: 2em;
+  }
+
+  .projectpreview > img {
+    height: 20dvh;
+    width: 20dvw;
+    object-fit: cover
+  }
 }
