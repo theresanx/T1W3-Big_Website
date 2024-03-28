@@ -1,0 +1,33 @@
+.projectpreview > img {
+    height: 20dvh;
+}
+
+.projectpreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    
+    margin: 2em;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: var(--cambridge-blue);
+    /* similar styling can be box-shadow */
+    filter: drop-shadow(0.5em 0.5em 5px #5b8881);
+}
+
+.projectpreview > a {
+    background-color: var(--dutch-white);
+    border: 0.2em solid wheat;
+    padding: 0.5dvh;
+    font-size: medium;
+    border-radius: 5em;
+    text-decoration: none;
+    color: black;
+}
+
+.projectpreview > a:hover {
+    transition: 1s;
+    font-size: larger;
+}
