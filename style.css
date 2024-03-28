@@ -58,7 +58,6 @@ main > img {
     height: 40dvh;
     /* if adding a specific width, can use object-fit so image is not skewed depending on screen size */
     width: 80dvw;
-    background-color: #a1c0bc;
     object-fit: contain;
 }
 
