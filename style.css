@@ -31,7 +31,30 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: x-small;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: #a5b1c2;
+    color: black;
+    margin: 0.1em;
+    border-radius: 5em;
+    width: 19dvw;
+    height: 4dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a:hover {
+    background-color: #5e708a;
+    color: white;
 }
 
 footer {
@@ -63,7 +86,7 @@ main > img {
 
 #home-button {
     background-color: var(--dutch-white);
-    border: 3px solid wheat;
+    border: 0.2em solid wheat;
     padding: 0.5dvh;
     font-size:medium;
 }
