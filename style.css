@@ -105,7 +105,7 @@ main > h1 {
 #home-button,
 #contact-mailtolink {
     background-color: var(--dutch-white);
-    border: 0.2em solid wheat;
+    border: 0.2em solid white;
     padding: 0.5dvh;
     font-size: medium;
     border-radius: 5em;

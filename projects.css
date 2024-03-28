@@ -19,10 +19,10 @@
 
 .projectpreview > a {
     background-color: var(--dutch-white);
-    border: 0.2em solid wheat;
+    border: 0.2em solid white;
+    border-radius: 5em;
     padding: 0.5dvh;
     font-size: medium;
-    border-radius: 5em;
     text-decoration: none;
     color: black;
 }
@@ -30,4 +30,19 @@
 .projectpreview > a:hover {
     transition: 1s;
     font-size: larger;
+}
+
+.projectpreview > section {
+    display: flex;
+    column-gap: 1em;
+}
+
+.projectpreview > section > a {
+    background-color: var(--dutch-white);
+    border: 0.2em solid white;
+    border-radius: 5em;
+    padding: 0.5dvh;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
 }
